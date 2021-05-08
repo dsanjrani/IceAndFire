@@ -2,7 +2,7 @@
 
 This iOS project contains a simple app that lists all the houses of the [Ice And Fire API](https://anapioficeandfire.com). The app loads the data laizly with a page size of 25 items and does not store any downloaded data on the device. Therefore it requires an internet connection to function properly.
 
-The project compiles with the latest version of Xcode 12.5 and Swift 5.
+The project compiles with Xcode 12.5 and Swift 5.
 
 ## Testing
 The whole project is tested with Unit and UI tests and has a test coverage of 88,3%. The untested code parts are the SwiftUI [PreviewProviders](https://developer.apple.com/documentation/swiftui/previewprovider) which cannot be excluded from the coverage gathering (at least it can't be excluded without any additional tools).

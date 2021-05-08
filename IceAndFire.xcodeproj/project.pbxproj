@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092B1E9B26418F4900465762 /* IceAndFireUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092B1E9A26418F4900465762 /* IceAndFireUITestCase.swift */; };
+		0934E05F264159EC00F6A45A /* HousesListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934E05E264159EC00F6A45A /* HousesListUITests.swift */; };
+		0966EC7B264176E0000A43D9 /* HouseDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966EC7A264176E0000A43D9 /* HouseDetailUITests.swift */; };
+		096C7B972639EF0B00335B14 /* HouseDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C7B962639EF0B00335B14 /* HouseDetailViewModelTests.swift */; };
+		096C7BB92639FB8500335B14 /* HouseRowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C7BB82639FB8500335B14 /* HouseRowUITests.swift */; };
+		09753EE12641D3D000E49569 /* DispatchQueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09753EE02641D3D000E49569 /* DispatchQueueProtocol.swift */; };
+		09753EED2641D6CF00E49569 /* MockDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09753EEC2641D6CF00E49569 /* MockDispatchQueue.swift */; };
+		255F4FEB25DD987900D9149D /* IceAndFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F4FEA25DD987900D9149D /* IceAndFireApp.swift */; };
+		255F4FED25DD987900D9149D /* HousesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F4FEC25DD987900D9149D /* HousesList.swift */; };
+		255F4FEF25DD987A00D9149D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255F4FEE25DD987A00D9149D /* Assets.xcassets */; };
+		255F4FF225DD987A00D9149D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255F4FF125DD987A00D9149D /* Preview Assets.xcassets */; };
+		255F501B25DDA48500D9149D /* HousesDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F501A25DDA48500D9149D /* HousesDownloader.swift */; };
+		255F502325DDA51000D9149D /* HousesDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F502225DDA51000D9149D /* HousesDownloaderTests.swift */; };
+		255F502825DDA5FF00D9149D /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F502725DDA5FF00D9149D /* MockURLSession.swift */; };
+		255F502D25DDAC2C00D9149D /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F502C25DDAC2C00D9149D /* House.swift */; };
+		255F503725DEEF5B00D9149D /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F503625DEEF5B00D9149D /* URLSessionProtocol.swift */; };
+		255F503B25DEF01400D9149D /* MockURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F503A25DEF01400D9149D /* MockURLSessionDataTask.swift */; };
+		255F5A9C263002EE00DD0F4B /* HouseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F5A9B263002EE00DD0F4B /* HouseDetail.swift */; };
+		255F5AA0263006DE00DD0F4B /* HouseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F5A9F263006DE00DD0F4B /* HouseDetailViewModel.swift */; };
+		25844FA7262B35C000F99F5E /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25844FA6262B35C000F99F5E /* TestData.swift */; };
+		258787B2261B6EB4001A611C /* HouseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787B1261B6EB4001A611C /* HouseRow.swift */; };
+		258787B6261B8FF7001A611C /* IceAndFireDataStoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787B5261B8FF7001A611C /* IceAndFireDataStoreExtension.swift */; };
+		258787BA261B90AA001A611C /* IceAndFireDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787B9261B90AA001A611C /* IceAndFireDataStore.swift */; };
+		258787BE261B948F001A611C /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = 258787BD261B948F001A611C /* houses.json */; };
+		258787CB261C74D9001A611C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787CA261C74D9001A611C /* ArrayExtension.swift */; };
+		258787D0261C754E001A611C /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787CF261C754E001A611C /* ArrayExtensionTests.swift */; };
+		258787D8261C8BF4001A611C /* IceAndFireDataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787D7261C8BF4001A611C /* IceAndFireDataStoreTests.swift */; };
+		258787E0261C8DFB001A611C /* HousesDownloaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787DF261C8DFB001A611C /* HousesDownloaderProtocol.swift */; };
+		258787E6261E3255001A611C /* NetworkingConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787E5261E3255001A611C /* NetworkingConstant.swift */; };
+		258787F4261E3915001A611C /* MockHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787F3261E3915001A611C /* MockHelpers.swift */; };
+		258787FA261E3950001A611C /* MockHousesDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258787F9261E3950001A611C /* MockHousesDownloader.swift */; };
+		25904B7A25DFD50800F07D93 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25904B7925DFD50800F07D93 /* TestError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		096C7BBB2639FB8500335B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255F4FDF25DD987900D9149D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255F4FE625DD987900D9149D;
+			remoteInfo = GOTHouses;
+		};
+		255F4FF925DD987A00D9149D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255F4FDF25DD987900D9149D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255F4FE625DD987900D9149D;
+			remoteInfo = GOTHouses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092B1E9A26418F4900465762 /* IceAndFireUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireUITestCase.swift; sourceTree = "<group>"; };
+		0934E05E264159EC00F6A45A /* HousesListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListUITests.swift; sourceTree = "<group>"; };
+		0966EC7A264176E0000A43D9 /* HouseDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailUITests.swift; sourceTree = "<group>"; };
+		096C7B962639EF0B00335B14 /* HouseDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewModelTests.swift; sourceTree = "<group>"; };
+		096C7BB62639FB8500335B14 /* Ice And Fire UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ice And Fire UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		096C7BB82639FB8500335B14 /* HouseRowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HouseRowUITests.swift; path = "Ice And Fire UI Tests/HouseRowUITests.swift"; sourceTree = SOURCE_ROOT; };
+		096C7BBA2639FB8500335B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Ice And Fire UI Tests/Info.plist"; sourceTree = SOURCE_ROOT; };
+		09753EE02641D3D000E49569 /* DispatchQueueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueProtocol.swift; sourceTree = "<group>"; };
+		09753EEC2641D6CF00E49569 /* MockDispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDispatchQueue.swift; sourceTree = "<group>"; };
+		255F4FE725DD987900D9149D /* Ice And Fire App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice And Fire App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255F4FEA25DD987900D9149D /* IceAndFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireApp.swift; sourceTree = "<group>"; };
+		255F4FEC25DD987900D9149D /* HousesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesList.swift; sourceTree = "<group>"; };
+		255F4FEE25DD987A00D9149D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255F4FF125DD987A00D9149D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		255F4FF325DD987A00D9149D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255F4FF825DD987A00D9149D /* Ice And Fire Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ice And Fire Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255F4FFE25DD987A00D9149D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255F501A25DDA48500D9149D /* HousesDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesDownloader.swift; sourceTree = "<group>"; };
+		255F502225DDA51000D9149D /* HousesDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesDownloaderTests.swift; sourceTree = "<group>"; };
+		255F502725DDA5FF00D9149D /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		255F502C25DDAC2C00D9149D /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		255F503625DEEF5B00D9149D /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		255F503A25DEF01400D9149D /* MockURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionDataTask.swift; sourceTree = "<group>"; };
+		255F5A9B263002EE00DD0F4B /* HouseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetail.swift; sourceTree = "<group>"; };
+		255F5A9F263006DE00DD0F4B /* HouseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewModel.swift; sourceTree = "<group>"; };
+		25844FA6262B35C000F99F5E /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		258787B1261B6EB4001A611C /* HouseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRow.swift; sourceTree = "<group>"; };
+		258787B5261B8FF7001A611C /* IceAndFireDataStoreExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireDataStoreExtension.swift; sourceTree = "<group>"; };
+		258787B9261B90AA001A611C /* IceAndFireDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireDataStore.swift; sourceTree = "<group>"; };
+		258787BD261B948F001A611C /* houses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = houses.json; sourceTree = "<group>"; };
+		258787CA261C74D9001A611C /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		258787CF261C754E001A611C /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
+		258787D7261C8BF4001A611C /* IceAndFireDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireDataStoreTests.swift; sourceTree = "<group>"; };
+		258787DF261C8DFB001A611C /* HousesDownloaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesDownloaderProtocol.swift; sourceTree = "<group>"; };
+		258787E5261E3255001A611C /* NetworkingConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingConstant.swift; sourceTree = "<group>"; };
+		258787F3261E3915001A611C /* MockHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHelpers.swift; sourceTree = "<group>"; };
+		258787F9261E3950001A611C /* MockHousesDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHousesDownloader.swift; sourceTree = "<group>"; };
+		25904B7925DFD50800F07D93 /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096C7BB32639FB8500335B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F4FE425DD987900D9149D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F4FF525DD987A00D9149D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091C88CE2642E0550094F65E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				255F4FEC25DD987900D9149D /* HousesList.swift */,
+				258787B1261B6EB4001A611C /* HouseRow.swift */,
+				255F5A9B263002EE00DD0F4B /* HouseDetail.swift */,
+				255F5A9F263006DE00DD0F4B /* HouseDetailViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		096C7BB72639FB8500335B14 /* Ice And Fire UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				092B1E9A26418F4900465762 /* IceAndFireUITestCase.swift */,
+				0934E05E264159EC00F6A45A /* HousesListUITests.swift */,
+				096C7BB82639FB8500335B14 /* HouseRowUITests.swift */,
+				0966EC7A264176E0000A43D9 /* HouseDetailUITests.swift */,
+				096C7BBA2639FB8500335B14 /* Info.plist */,
+			);
+			path = "Ice And Fire UI Tests";
+			sourceTree = "<group>";
+		};
+		09753EE82641D42000E49569 /* Mock Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				09753EE02641D3D000E49569 /* DispatchQueueProtocol.swift */,
+				255F503625DEEF5B00D9149D /* URLSessionProtocol.swift */,
+				258787DF261C8DFB001A611C /* HousesDownloaderProtocol.swift */,
+			);
+			path = "Mock Protocols";
+			sourceTree = "<group>";
+		};
+		255F4FDE25DD987900D9149D = {
+			isa = PBXGroup;
+			children = (
+				255F4FE925DD987900D9149D /* Ice And Fire App */,
+				255F4FFB25DD987A00D9149D /* Ice And Fire Unit Tests */,
+				096C7BB72639FB8500335B14 /* Ice And Fire UI Tests */,
+				255F4FE825DD987900D9149D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255F4FE825DD987900D9149D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255F4FE725DD987900D9149D /* Ice And Fire App.app */,
+				255F4FF825DD987A00D9149D /* Ice And Fire Unit Tests.xctest */,
+				096C7BB62639FB8500335B14 /* Ice And Fire UI Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255F4FE925DD987900D9149D /* Ice And Fire App */ = {
+			isa = PBXGroup;
+			children = (
+				255F4FEA25DD987900D9149D /* IceAndFireApp.swift */,
+				091C88CE2642E0550094F65E /* Views */,
+				258787DE261C8D10001A611C /* Data Structures */,
+				258787DD261C8CF9001A611C /* Networking */,
+				258787C9261C74A3001A611C /* Extensions */,
+				09753EE82641D42000E49569 /* Mock Protocols */,
+				255F4FEE25DD987A00D9149D /* Assets.xcassets */,
+				255F4FF325DD987A00D9149D /* Info.plist */,
+				255F4FF025DD987A00D9149D /* Preview Content */,
+			);
+			path = "Ice And Fire App";
+			sourceTree = "<group>";
+		};
+		255F4FF025DD987A00D9149D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				255F4FF125DD987A00D9149D /* Preview Assets.xcassets */,
+				258787BD261B948F001A611C /* houses.json */,
+				258787B5261B8FF7001A611C /* IceAndFireDataStoreExtension.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		255F4FFB25DD987A00D9149D /* Ice And Fire Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				255F4FFE25DD987A00D9149D /* Info.plist */,
+				25844F9D262B348000F99F5E /* Data Structures */,
+				25844F9E262B349200F99F5E /* Networking */,
+				258787D5261C8BCD001A611C /* Mocks */,
+				258787CE261C7537001A611C /* Extensions */,
+				25844FAA262B366600F99F5E /* Test Helpers */,
+			);
+			path = "Ice And Fire Unit Tests";
+			sourceTree = "<group>";
+		};
+		25844F9D262B348000F99F5E /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				258787D7261C8BF4001A611C /* IceAndFireDataStoreTests.swift */,
+				096C7B962639EF0B00335B14 /* HouseDetailViewModelTests.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		25844F9E262B349200F99F5E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				255F502225DDA51000D9149D /* HousesDownloaderTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		25844FAA262B366600F99F5E /* Test Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				25904B7925DFD50800F07D93 /* TestError.swift */,
+				25844FA6262B35C000F99F5E /* TestData.swift */,
+			);
+			path = "Test Helpers";
+			sourceTree = "<group>";
+		};
+		258787C9261C74A3001A611C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				258787CA261C74D9001A611C /* ArrayExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		258787CE261C7537001A611C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				258787CF261C754E001A611C /* ArrayExtensionTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		258787D5261C8BCD001A611C /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				258787F3261E3915001A611C /* MockHelpers.swift */,
+				09753EEC2641D6CF00E49569 /* MockDispatchQueue.swift */,
+				255F502725DDA5FF00D9149D /* MockURLSession.swift */,
+				255F503A25DEF01400D9149D /* MockURLSessionDataTask.swift */,
+				258787F9261E3950001A611C /* MockHousesDownloader.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		258787DD261C8CF9001A611C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				258787E5261E3255001A611C /* NetworkingConstant.swift */,
+				255F501A25DDA48500D9149D /* HousesDownloader.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		258787DE261C8D10001A611C /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				258787B9261B90AA001A611C /* IceAndFireDataStore.swift */,
+				255F502C25DDAC2C00D9149D /* House.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096C7BB52639FB8500335B14 /* Ice And Fire UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096C7BBD2639FB8500335B14 /* Build configuration list for PBXNativeTarget "Ice And Fire UI Tests" */;
+			buildPhases = (
+				096C7BB22639FB8500335B14 /* Sources */,
+				096C7BB32639FB8500335B14 /* Frameworks */,
+				096C7BB42639FB8500335B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096C7BBC2639FB8500335B14 /* PBXTargetDependency */,
+			);
+			name = "Ice And Fire UI Tests";
+			productName = GOTHousesUITests;
+			productReference = 096C7BB62639FB8500335B14 /* Ice And Fire UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		255F4FE625DD987900D9149D /* Ice And Fire App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255F500C25DD987A00D9149D /* Build configuration list for PBXNativeTarget "Ice And Fire App" */;
+			buildPhases = (
+				255F4FE325DD987900D9149D /* Sources */,
+				255F4FE425DD987900D9149D /* Frameworks */,
+				255F4FE525DD987900D9149D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ice And Fire App";
+			productName = GOTHouses;
+			productReference = 255F4FE725DD987900D9149D /* Ice And Fire App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255F4FF725DD987A00D9149D /* Ice And Fire Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255F500F25DD987A00D9149D /* Build configuration list for PBXNativeTarget "Ice And Fire Unit Tests" */;
+			buildPhases = (
+				255F4FF425DD987A00D9149D /* Sources */,
+				255F4FF525DD987A00D9149D /* Frameworks */,
+				255F4FF625DD987A00D9149D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255F4FFA25DD987A00D9149D /* PBXTargetDependency */,
+			);
+			name = "Ice And Fire Unit Tests";
+			packageProductDependencies = (
+			);
+			productName = GOTHousesTests;
+			productReference = 255F4FF825DD987A00D9149D /* Ice And Fire Unit Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255F4FDF25DD987900D9149D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					096C7BB52639FB8500335B14 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 255F4FE625DD987900D9149D;
+					};
+					255F4FE625DD987900D9149D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					255F4FF725DD987A00D9149D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 255F4FE625DD987900D9149D;
+					};
+				};
+			};
+			buildConfigurationList = 255F4FE225DD987900D9149D /* Build configuration list for PBXProject "IceAndFire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255F4FDE25DD987900D9149D;
+			packageReferences = (
+			);
+			productRefGroup = 255F4FE825DD987900D9149D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255F4FE625DD987900D9149D /* Ice And Fire App */,
+				255F4FF725DD987A00D9149D /* Ice And Fire Unit Tests */,
+				096C7BB52639FB8500335B14 /* Ice And Fire UI Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096C7BB42639FB8500335B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F4FE525DD987900D9149D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F4FF225DD987A00D9149D /* Preview Assets.xcassets in Resources */,
+				255F4FEF25DD987A00D9149D /* Assets.xcassets in Resources */,
+				258787BE261B948F001A611C /* houses.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F4FF625DD987A00D9149D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096C7BB22639FB8500335B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0934E05F264159EC00F6A45A /* HousesListUITests.swift in Sources */,
+				0966EC7B264176E0000A43D9 /* HouseDetailUITests.swift in Sources */,
+				096C7BB92639FB8500335B14 /* HouseRowUITests.swift in Sources */,
+				092B1E9B26418F4900465762 /* IceAndFireUITestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F4FE325DD987900D9149D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F503725DEEF5B00D9149D /* URLSessionProtocol.swift in Sources */,
+				255F4FED25DD987900D9149D /* HousesList.swift in Sources */,
+				255F501B25DDA48500D9149D /* HousesDownloader.swift in Sources */,
+				258787CB261C74D9001A611C /* ArrayExtension.swift in Sources */,
+				258787E6261E3255001A611C /* NetworkingConstant.swift in Sources */,
+				255F502D25DDAC2C00D9149D /* House.swift in Sources */,
+				258787B6261B8FF7001A611C /* IceAndFireDataStoreExtension.swift in Sources */,
+				09753EE12641D3D000E49569 /* DispatchQueueProtocol.swift in Sources */,
+				258787E0261C8DFB001A611C /* HousesDownloaderProtocol.swift in Sources */,
+				258787BA261B90AA001A611C /* IceAndFireDataStore.swift in Sources */,
+				255F4FEB25DD987900D9149D /* IceAndFireApp.swift in Sources */,
+				255F5AA0263006DE00DD0F4B /* HouseDetailViewModel.swift in Sources */,
+				258787B2261B6EB4001A611C /* HouseRow.swift in Sources */,
+				255F5A9C263002EE00DD0F4B /* HouseDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F4FF425DD987A00D9149D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096C7B972639EF0B00335B14 /* HouseDetailViewModelTests.swift in Sources */,
+				258787F4261E3915001A611C /* MockHelpers.swift in Sources */,
+				25904B7A25DFD50800F07D93 /* TestError.swift in Sources */,
+				255F503B25DEF01400D9149D /* MockURLSessionDataTask.swift in Sources */,
+				255F502825DDA5FF00D9149D /* MockURLSession.swift in Sources */,
+				09753EED2641D6CF00E49569 /* MockDispatchQueue.swift in Sources */,
+				258787D8261C8BF4001A611C /* IceAndFireDataStoreTests.swift in Sources */,
+				25844FA7262B35C000F99F5E /* TestData.swift in Sources */,
+				258787FA261E3950001A611C /* MockHousesDownloader.swift in Sources */,
+				258787D0261C754E001A611C /* ArrayExtensionTests.swift in Sources */,
+				255F502325DDA51000D9149D /* HousesDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096C7BBC2639FB8500335B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255F4FE625DD987900D9149D /* Ice And Fire App */;
+			targetProxy = 096C7BBB2639FB8500335B14 /* PBXContainerItemProxy */;
+		};
+		255F4FFA25DD987A00D9149D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255F4FE625DD987900D9149D /* Ice And Fire App */;
+			targetProxy = 255F4FF925DD987A00D9149D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		096C7BBE2639FB8500335B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CUF85MS6H;
+				INFOPLIST_FILE = "Ice And Fire UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.sanjrani.IceAndFireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ice And Fire App";
+			};
+			name = Debug;
+		};
+		096C7BBF2639FB8500335B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CUF85MS6H;
+				INFOPLIST_FILE = "Ice And Fire UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.sanjrani.IceAndFireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ice And Fire App";
+			};
+			name = Release;
+		};
+		255F500A25DD987A00D9149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255F500B25DD987A00D9149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255F500D25DD987A00D9149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ice And Fire App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CUF85MS6H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ice And Fire App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.sanjrani.IceAndFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255F500E25DD987A00D9149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ice And Fire App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CUF85MS6H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ice And Fire App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.sanjrani.IceAndFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255F501025DD987A00D9149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CUF85MS6H;
+				INFOPLIST_FILE = "Ice And Fire Unit Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.sanjrani.IceAndFireUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ice And Fire App.app/Ice And Fire App";
+			};
+			name = Debug;
+		};
+		255F501125DD987A00D9149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CUF85MS6H;
+				INFOPLIST_FILE = "Ice And Fire Unit Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.sanjrani.IceAndFireUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ice And Fire App.app/Ice And Fire App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096C7BBD2639FB8500335B14 /* Build configuration list for PBXNativeTarget "Ice And Fire UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096C7BBE2639FB8500335B14 /* Debug */,
+				096C7BBF2639FB8500335B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255F4FE225DD987900D9149D /* Build configuration list for PBXProject "IceAndFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F500A25DD987A00D9149D /* Debug */,
+				255F500B25DD987A00D9149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255F500C25DD987A00D9149D /* Build configuration list for PBXNativeTarget "Ice And Fire App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F500D25DD987A00D9149D /* Debug */,
+				255F500E25DD987A00D9149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255F500F25DD987A00D9149D /* Build configuration list for PBXNativeTarget "Ice And Fire Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F501025DD987A00D9149D /* Debug */,
+				255F501125DD987A00D9149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255F4FDF25DD987900D9149D /* Project object */;
+}
